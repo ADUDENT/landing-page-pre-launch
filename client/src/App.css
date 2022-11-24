@@ -1,0 +1,41 @@
+.title {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.title h1::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #1C1EE1;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.title h1 {
+    width: fit-content;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    color: #4E4E4E;
+}
+
+.platform .container .card img {
+    width: 15rem;
+    height: auto;
+}
+
+.platform .container .card .item-title {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    color: #58468B;
+}
+
+.platform .container .card p {
+    font-size: 0.9rem;
+    color: #2B2B2B;
+}
